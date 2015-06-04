@@ -114,10 +114,6 @@ PRODUCT_COPY_FILES += \
 	vendor/cyanide/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
 	vendor/cyanide/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
-# Copy latinime for gesture typing
-PRODUCT_COPY_FILES += \
-	vendor/cyanide/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
-
 # CYANIDE-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cyanide/prebuilt/common/etc/init.local.rc:root/init.cyanide.rc
@@ -149,7 +145,6 @@ include vendor/cyanide/config/themes_common.mk
 # Required CYANIDE packages
 PRODUCT_PACKAGES += \
     Development \
-    LatinIME \
     BluetoothExt
 
 # Optional CYANIDE packages

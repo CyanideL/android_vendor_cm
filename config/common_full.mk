@@ -7,9 +7,6 @@ $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 # Include CYANIDE audio files
 include vendor/cyanide/config/cyanide_audio.mk
 
-# Include CYANIDE LatinIME dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanide/overlay/dictionaries
-
 # Optional CYANIDE packages
 PRODUCT_PACKAGES += \
     Galaxy4 \

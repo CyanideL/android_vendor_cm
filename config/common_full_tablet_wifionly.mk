@@ -1,6 +1,13 @@
 # Inherit common CYANIDE stuff
 $(call inherit-product, vendor/cyanide/config/common_full.mk)
 
+# Required CYANIDE packages
+PRODUCT_PACKAGES += \
+    LatinIME
+
+# Include CYANIDE LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanide/overlay/dictionaries
+
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Argon.ogg \

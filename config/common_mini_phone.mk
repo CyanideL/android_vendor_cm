@@ -4,6 +4,10 @@ $(call inherit-product, vendor/cyanide/config/common.mk)
 # Include CYANIDE audio files
 include vendor/cyanide/config/cyanide_audio.mk
 
+# Required CYANIDE packages
+PRODUCT_PACKAGES += \
+    LatinIME
+
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Argon.ogg \
