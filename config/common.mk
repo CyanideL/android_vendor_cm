@@ -157,7 +157,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     OmniSwitch \
-    CMAccount
+    CMAccount \
+    CyanidePapers
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
