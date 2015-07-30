@@ -158,7 +158,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     OmniSwitch \
     CMAccount \
-    CyanidePapers
+    CyanidePapers \
+    AudioFX
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
