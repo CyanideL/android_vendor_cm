@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     CMAccount \
     CyanidePapers \
-    AudioFX
+    AudioFX \
+    WallpaperPicker
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
