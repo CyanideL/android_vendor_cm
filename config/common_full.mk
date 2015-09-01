@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhotoTable \
     SoundRecorder \
-    PhotoPhase
+    PhotoPhase \
+    CMSettingsProvider
 
 PRODUCT_PACKAGES += \
     VideoEditor \
