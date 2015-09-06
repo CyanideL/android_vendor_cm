@@ -3,3 +3,10 @@
     add_lunch_combo cyanide_t0lte-userdebug
     add_lunch_combo cyanide_d2att-userdebug
     add_lunch_combo cyanide_bacon-userdebug
+    add_lunch_combo cyanide_d850-userdebug
+    add_lunch_combo cyanide_d855-userdebug
+    add_lunch_combo cyanide_vs985-userdebug
+    add_lunch_combo cyanide_klte-userdebug
+    add_lunch_combo cyanide_mondrianwifi-userdebug
+    add_lunch_combo cyanide_shamu-userdebug
+    add_lunch_combo cyanide_hammerhead-userdebug
