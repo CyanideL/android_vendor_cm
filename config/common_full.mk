@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     PhotoTable \
     SoundRecorder \
     PhotoPhase \
-    CMSettingsProvider
+    CMSettingsProvider \
+    CMResolver
 
 PRODUCT_PACKAGES += \
     VideoEditor \
