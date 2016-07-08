@@ -97,6 +97,10 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
+# Backup Services whitelist
+PRODUCT_COPY_FILES += \
+    vendor/cyanide/configs/permissions/backup.xml:system/etc/sysconfig/backup.xml
+
 # Backup Tool
 ifneq ($(WITH_GMS),true)
 PRODUCT_COPY_FILES += \
