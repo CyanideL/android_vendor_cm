@@ -161,7 +161,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CyanideWeatherService \
     Eleven \
-    OmniSwitch
+    OmniSwitch \
+    masquerade
 
 # Extra tools in Cyanide
 PRODUCT_PACKAGES += \
