@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 		vendor/cyanide/prebuilt/common/app/ESFileManager.apk:system/app/ESFileManager.apk
 
+# Workaround for CyanideMods zipalign fails
+PRODUCT_COPY_FILES += \
+		vendor/cyanide/prebuilt/common/app/CyanideMods.apk:system/app/CyanideMods.apk
+
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/cyanide/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
@@ -159,7 +163,6 @@ PRODUCT_PACKAGES += \
 
 # Custom Cyanide packages
 PRODUCT_PACKAGES += \
-    CyanideWeatherService \
     Eleven \
     OmniSwitch
 
