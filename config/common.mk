@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
 # Custom Cyanide packages
 PRODUCT_PACKAGES += \
     Eleven \
-    OmniSwitch
+    OmniSwitch \
+    masquerade
 
 # Extra tools in Cyanide
 PRODUCT_PACKAGES += \
