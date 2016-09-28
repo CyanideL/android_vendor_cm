@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t cyanide"
+
+$L "Welcome to Android `getprop ro.build.version.release` / Cyanide Android-`getprop ro.cyanide.version`";
