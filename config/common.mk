@@ -71,8 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/cyanide/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 # init.d support
-#PRODUCT_COPY_FILES += \
-#    vendor/cyanide/prebuilt/bin/sysinit:system/bin/sysinit
+PRODUCT_COPY_FILES += \
+    vendor/cyanide/prebuilt/bin/sysinit:system/bin/sysinit
 
 # Init script file with Cyanide extras
 #PRODUCT_COPY_FILES += \
