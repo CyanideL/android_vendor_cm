@@ -78,6 +78,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/cyanide/prebuilt/etc/init.local.rc:root/init.cyanide.rc
 
+# DU Utils Library
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # Additional packages
 -include vendor/cyanide/config/packages.mk
 
