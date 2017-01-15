@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
 
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
-		vendor/cyanide/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+		vendor/cyanide/prebuilt/common/app/CyanideLauncher.apk:system/app/CyanideLauncher.apk
 		
 # Workaround for ESFileManager zipalign fails
 PRODUCT_COPY_FILES += \
