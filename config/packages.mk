@@ -1,8 +1,7 @@
 # Required Cyanide packages
 PRODUCT_PACKAGES += \
     LatinIME \
-    Eleven
-
+    Eleven 
 # DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
