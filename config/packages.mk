@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
     LatinIME \
     Eleven \
-    CyanideMods
+    Launcher3
 # DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils

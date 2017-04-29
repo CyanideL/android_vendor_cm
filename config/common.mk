@@ -54,8 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/cyanide/prebuilt/common/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
 
 # Workaround for CyanideMods zipalign fails
-#PRODUCT_COPY_FILES += \
- #       vendor/cyanide/prebuilt/common/app/CyanideMods/CyanideMods.apk:system/priv-app/CyanideMods/CyanideMods.apk
+PRODUCT_COPY_FILES += \
+        vendor/cyanide/prebuilt/common/app/CyanideMods/CyanideMods.apk:system/priv-app/CyanideMods/CyanideMods.apk
 
 # Workaround for NovaLauncher zipalign fails
 #PRODUCT_COPY_FILES += \
